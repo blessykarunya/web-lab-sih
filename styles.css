@@ -286,3 +286,24 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+.contenthead
+{
+    text-align: center;
+    color: #B1D8F5;
+}
+.content{
+    font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ECFAFB;
+}
+#wholecontent
+{
+    background-color: #1C55A2;
+}
