@@ -1,0 +1,21 @@
+#kedarnath {
+	width: 100%;
+}
+
+#navbar-toggle[aria-expanded='true'] .icon-bar:is(:first-child, :last-child) {
+	position: absolute;
+	margin: 0;
+	width: 30px;
+}
+  
+#navbar-toggle[aria-expanded='true'] .icon-bar:first-child {
+	transform: rotate(45deg);
+}
+  
+#navbar-toggle[aria-expanded='true'] .icon-bar:nth-child(2) {
+	opacity: 0;
+}
+  
+#navbar-toggle[aria-expanded='true'] .icon-bar:last-child {
+	transform: rotate(-45deg);
+}
