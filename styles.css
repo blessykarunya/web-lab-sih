@@ -74,7 +74,7 @@ main {
 
 .home-link:focus,
 .home-link:hover {
-    color: #F1FFFF;
+    color: #1C55A2;
 }
 
 .navbar-link {
@@ -303,11 +303,33 @@ text-align: center;
 
 color: #ECFAFB;
 }
-#wholecontent
+.wholecontent
 {
     background-color: #1C55A2;
 }
 .journey
 {
     background: #9BC4B6;
+}
+.guide
+{
+    color: #587CA0;
+}
+.videobg
+{
+    background: #587CA0;;
+}
+.feedback
+{
+    width: 100%;
+    background-color: #b1dce7;
+    color: #FFFFFF;
+}
+.leftalign
+{
+    text-align: left;
+}
+.rightalign
+{
+    text-align: right;
 }
