@@ -1,4 +1,10 @@
 .navbar-container {
 	display: flex;
-	color: darkcyan;
+	background-color: darkcyan;
+	align-items: center;
+}
+
+#navbar {
+	display: flex;
+	
 }
