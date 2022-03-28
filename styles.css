@@ -75,7 +75,7 @@ color: #1C55A2;
 
 .home-link:focus,
 .home-link:hover {
-    color: var(--navbar-text-color-focus);
+    text-color: #F1FFFF;
 }
 
 .navbar-link {
