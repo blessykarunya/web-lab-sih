@@ -3,7 +3,7 @@
 }
 
 :root {
-    --navbar-bg-color: hsl(0, 0%, 15%);
+    //--navbar-bg-color: hsl(0, 0%, 15%);
     --navbar-text-color: hsl(0, 0%, 85%);
     --navbar-text-color-focus: white;
     --navbar-bg-contrast: hsl(0, 0%, 25%);
@@ -43,7 +43,7 @@ main {
     background-color: var(--navbar-bg-color);
     left: 0;
     right: 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    //box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-container {
@@ -51,6 +51,14 @@ main {
     justify-content: space-between;
     height: 100%;
     align-items: center;
+    background: #F1FFFF;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #1C55A2;  
 }
 
 .home-link,
@@ -73,8 +81,15 @@ main {
 .navbar-link {
     justify-content: center;
     width: 100%;
-    padding: 0.4em 0.8em;
-    border-radius: 5px;    
+    //padding: 0.4em 0.8em;
+    border-radius: 2px;  
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #1C55A2;  
 }
 
 .navbar-link:focus,
@@ -111,7 +126,8 @@ main {
     transition: background-color 0.2s ease-in-out,
                 transform 0.2s ease-in-out,
                 opacity 0.2s ease-in-out;
-    background-color: var(--navbar-text-color);
+    //background-color: var(--navbar-text-color);
+    background: #F1FFFF;
 }
 
 .navbar-toggle:focus .icon-bar,
@@ -149,6 +165,7 @@ main {
                 right 0.2s ease-in-out;
     opacity: 0;
     visibility: hidden;
+    background: #F1FFFF;
 }
 
 #navbar-menu.sidebar,
