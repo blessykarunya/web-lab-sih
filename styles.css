@@ -29,7 +29,6 @@ main {
 }
 
 .container {
-    max-width: 1000px;
     padding-left: 1.4rem;
     padding-right: 1.4rem;
     margin-left: auto;
@@ -53,12 +52,12 @@ main {
     align-items: center;
     background: #F1FFFF;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
 
-color: #1C55A2;  
+	color: #1C55A2;  
 }
 
 .home-link,
