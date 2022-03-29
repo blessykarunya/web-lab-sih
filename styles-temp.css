@@ -4,19 +4,16 @@
 	align-items: center;
 	justify-content: space-between;
 }
-
 .navbar-content {
 	list-style-type: none;
 	padding-right: 20px;
 }
-
 .nav-item {
 	float: left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 }
-
 .nav-item a {
 	display: block;
 	color: #1C55A2;
@@ -24,11 +21,9 @@
 	text-align: center;
 	text-decoration: none;
 }
-
 .nav-item a:hover {
-	background-color: rgb(0, 177, 177);
+	background-color: #ccffff;
 }
-
 #logo-text {
 	display: block;
 	padding: 10px;
@@ -36,9 +31,6 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #1C55A2;
-	font-weight: bolder;
 	font-size: 36px;
-	
 	text-decoration: none;
-
 }
