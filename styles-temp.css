@@ -4,7 +4,7 @@ body {
 
 .navbar-container {
 	display: flex;
-	background-color: #F1FFFF;
+	background-color: #f1ffff;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -27,6 +27,20 @@ body {
 .nav-item a:hover {
 	background-color: #ccffff;
 }
+
+.subnav-content {
+	list-style-type: none;
+	display: none;
+	background-color: #f1ffff;
+	padding: 10px;
+	text-align: center;
+}
+
+.nav-item:hover > .subnav-content {
+	display: block;
+	position: absolute;
+}
+
 #logo-text {
 	display: block;
 	padding: 10px;
@@ -42,14 +56,43 @@ body {
 }
 
 .content {
-	width: 100%;
+	padding: 10px;
+	display: block;
 }
 
 .content-head {
 	text-align: center;
 	font-weight: bold;
+	font-size: 36px;
 }
 
-#logo-text a:hover {
+#about-head {
+	color: #B1D8F5;
+}
 
+#about {
+	background: #2E547F;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#about-content {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ECFAFB;
+}
+
+#journey {
+	background-color: #9BC4B6;
+	padding: 10px 0 0 0;
+}
+
+#journey-head {
+	color: #0E0E0F;
+	;
+}
+
+#journey-img {
+	width: 100%;
+	margin: 0;
 }
