@@ -22,7 +22,7 @@
 	text-decoration: none;
 }
 .nav-item a:hover {
-	background-color: #ccffff;
+	background-color: #ccfffff;
 }
 #logo-text {
 	display: block;
@@ -33,4 +33,7 @@
 	color: #1C55A2;
 	font-size: 36px;
 	text-decoration: none;
+}
+#logo-text a: hover{
+	background-color: ;
 }
