@@ -1,4 +1,4 @@
-#kedarnath {
+.kedarnath-img {
 	width: 100%;
 }
 
@@ -291,6 +291,7 @@ main {
 {
     text-align: center;
     color: #B1D8F5;
+    padding-top: 40;
 }
 .content{
     font-style: normal;
@@ -300,7 +301,7 @@ line-height: 48px;
 display: flex;
 align-items: center;
 text-align: center;
-
+padding-top: 1.5%;
 color: #ECFAFB;
 }
 .wholecontent
@@ -310,20 +311,23 @@ color: #ECFAFB;
 .journey
 {
     background: #9BC4B6;
+    padding-top: 2%;
 }
 .guide
 {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     color: #587CA0;
 }
 .videobg
 {
-    background: #587CA0;;
+	width: 100%;
+    background: #587CA0;
 }
 .feedback
 {
     width: 100%;
-    background-color: #b1dce7;
-    color: #FFFFFF;
+    background-color: #89A6AF;
 }
 .leftalign
 {
@@ -333,3 +337,36 @@ color: #ECFAFB;
 {
     text-align: right;
 }
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
