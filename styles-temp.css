@@ -25,7 +25,10 @@
 	background-color: rgb(0, 177, 177);
 }
 
-#logo-brand {
+#logo-text, #logo-text:active {
 	padding: 10px;
 	justify-content: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: aliceblue;
 }
