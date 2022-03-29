@@ -1,3 +1,7 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar-container {
 	display: flex;
 	background-color: #F1FFFF;
@@ -12,7 +16,6 @@
 
 .nav-item {
 	float: left;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 }
@@ -33,12 +36,22 @@
 	display: block;
 	padding: 10px;
 	justify-content: left;
-	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #1C55A2;
 	font-weight: bolder;
 	font-size: 36px;
-	
 	text-decoration: none;
+}
 
+#kedarnath-img {
+	width: 100%;
+}
+
+.content {
+	width: 100%;
+}
+
+.content-head {
+	text-align: center;
+	font-weight: bold;
 }
