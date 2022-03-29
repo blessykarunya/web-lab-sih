@@ -1,6 +1,6 @@
 .navbar-container {
 	display: flex;
-	background-color: darkcyan;
+	background-color: #F1FFFF;;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -16,7 +16,7 @@
 
 .nav-item a {
 	display: block;
-	color: aliceblue;
+	color: #1C55A2;
 	padding: 10px;
 	text-align: center;
 }
@@ -30,5 +30,5 @@
 	justify-content: left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	color: aliceblue;
+	color: #1C55A2;
 }
