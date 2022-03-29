@@ -7,11 +7,14 @@
 
 .navbar-content {
 	list-style-type: none;
-	float: right;
+	padding-right: 20px;
 }
 
 .nav-item {
-	float: right;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 .nav-item a {
@@ -19,16 +22,23 @@
 	color: #1C55A2;
 	padding: 10px;
 	text-align: center;
+	text-decoration: none;
 }
 
 .nav-item a:hover {
 	background-color: rgb(0, 177, 177);
 }
 
-#logo-text, #logo-text:active {
+#logo-text {
+	display: block;
 	padding: 10px;
 	justify-content: left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #1C55A2;
+	font-weight: bolder;
+	font-size: 36px;
+	
+	text-decoration: none;
+
 }
