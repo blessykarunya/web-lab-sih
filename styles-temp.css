@@ -8,18 +8,15 @@ body {
 	align-items: center;
 	justify-content: space-between;
 }
-
 .navbar-content {
 	list-style-type: none;
 	padding-right: 20px;
 }
-
 .nav-item {
 	float: left;
 	font-size: 24px;
 	font-weight: bold;
 }
-
 .nav-item a {
 	display: block;
 	color: #1C55A2;
@@ -27,18 +24,15 @@ body {
 	text-align: center;
 	text-decoration: none;
 }
-
 .nav-item a:hover {
 	background-color: #ccffff;
 }
-
 #logo-text {
 	display: block;
 	padding: 10px;
 	justify-content: left;
 	font-weight: bold;
 	color: #1C55A2;
-	font-weight: bolder;
 	font-size: 36px;
 	text-decoration: none;
 }
@@ -54,4 +48,8 @@ body {
 .content-head {
 	text-align: center;
 	font-weight: bold;
+}
+
+#logo-text a:hover {
+
 }
