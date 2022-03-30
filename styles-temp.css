@@ -108,3 +108,42 @@ body {
 	background-color: #587CA0;
 	text-align: center;
 }
+
+footer {
+	display: flex;
+	background-color: #89A6AF;
+	padding: 10px 50px 10px 50px;
+	justify-content: space-between;
+}
+
+.footer-container {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+}
+
+.footer-head {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.footer-content {
+	font-size: 24px;
+}
+
+.icon-panel {
+	display: flex;
+	float: left;
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.icon-panel-item {
+	padding: 10px;
+	font-size: 48px;
+}
+
+.icon-panel-item a {
+	color: #0E0E0F;
+}
