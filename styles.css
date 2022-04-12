@@ -1,0 +1,221 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.navbar-container {
+	width: 100%;
+	position: fixed;
+	display: flex;
+	background: linear-gradient(rgba(241, 255, 255, 1), rgba(241, 255, 255, 0));
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar-content {
+	list-style-type: none;
+	padding-right: 20px;
+}
+.nav-item {
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+}
+.nav-item a {
+	display: block;
+	color: #1C55A2;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+.nav-item a:hover {
+	background-color: #ccffff;
+}
+
+.subnav-content {
+	list-style-type: none;
+	display: none;
+	background-color: #f1ffff;
+	padding: 10px;
+	text-align: center;
+}
+
+.nav-item:hover > .subnav-content {
+	display: block;
+	position: absolute;
+}
+
+#logo-text {
+	display: block;
+	padding: 10px;
+	justify-content: left;
+	font-weight: bold;
+	color: #1C55A2;
+	font-size: 36px;
+	text-decoration: none;
+}
+
+#kedarnath-img {
+	width: 100%;
+}
+
+.content {
+	padding: 10px;
+	display: block;
+}
+
+.content-head {
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+#about-head {
+	color: #B1D8F5;
+}
+
+#about {
+	background: #2E547F;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#about-content {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ECFAFB;
+}
+
+#journey {
+	background-color: #9BC4B6;
+	padding: 10px 0 0 0;
+}
+
+#journey-head {
+	color: #0E0E0F;
+	;
+}
+
+#journey-img {
+	width: 100%;
+	margin: 0;
+}
+
+#travel-guide-head {
+	color: aliceblue;
+}
+
+#travel-guide {
+	background-color: #587CA0;
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	background-color: #89A6AF;
+	padding: 10px 50px 10px 50px;
+	justify-content: space-between;
+}
+
+.footer-container {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+}
+
+.footer-head {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.footer-content {
+	font-size: 24px;
+}
+
+.icon-panel {
+	display: flex;
+	float: left;
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.icon-panel-item {
+	padding: 10px;
+	font-size: 48px;
+}
+
+.icon-panel-item a {
+	color: #0E0E0F;
+}
+
+#feedback-form {
+	background-color: #ccffff;
+	padding: 20px;
+}
+
+.centered-head {
+	text-align: center;
+	color: #1C55A2;
+	font-weight: bold;
+}
+
+.label-item {
+	color: #2E547F;
+	font-weight: bold;
+}
+
+.detail-container {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.text-input {
+	/* padding-left: 5px; */
+	margin-top: 5px;
+	border-color: #1C55A2;
+	border-width: 1.5px;
+	border-radius: 10px;
+	width: 75%;
+	height: 20px;
+}
+
+.other-input {
+	margin-top: 5px;
+	border-color: #1C55A2;
+	border-width: 1.5px;
+	border-radius: 10px;
+	width: 40%;
+	height: 30px;
+	background-color: #1C55A2;
+	color: aliceblue;
+	font-weight: bold;
+}
+
+#form-content {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+#block1 {
+	display: block;
+	width: 50%;
+}
+
+#block2 {
+	display: block;
+	width: 50%;
+}
+
+#submit-button {
+	text-align: center;
+}
+
+#submit {
+	border-color: #1C55A2;
+	background-color: #1C55A2;
+	color: aliceblue;
+	font-weight: bold;
+	align-items: center;
+	display: block;
+}
