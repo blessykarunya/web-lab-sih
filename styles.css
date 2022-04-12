@@ -148,6 +148,29 @@ footer {
 	color: #0E0E0F;
 }
 
+.button {
+	background-color: #1C55A2;
+	color: aliceblue;
+	padding: 10px;
+	border-radius: 10px;
+	border-color: #0E0E0F;
+	border-width: 1.5px;
+}
+
+.button a {
+	color: aliceblue;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#feedback-button {
+	margin-top: 10px;
+}
+
+#feedback-button-section {
+	text-align: center;
+}
+
 #feedback-form {
 	/*background-color: #ccffff;*/
 	padding: 20px;
@@ -188,7 +211,7 @@ footer {
 
 .other-input {
 	margin-top: 5px;
-	border-color: #1C55A2;
+	border-color: #0E0E0F;
 	border-width: 1.5px;
 	border-radius: 10px;
 	width: 40%;
