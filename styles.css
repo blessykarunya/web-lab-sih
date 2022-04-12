@@ -149,7 +149,10 @@ footer {
 }
 
 #feedback-form {
-	background-color: #ccffff;
+	/*background-color: #ccffff;*/
+	background-image: url('images/Yamuna_at_Yamunotri.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	padding: 20px;
 }
 
