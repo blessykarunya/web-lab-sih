@@ -180,7 +180,7 @@ footer {
 	background-image: url('images/Yamuna_at_Yamunotri.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	opacity: 1.0;
+	opacity: 0.7;
 }
 
 .centered-head {
@@ -248,4 +248,17 @@ footer {
 	font-weight: bold;
 	align-items: center;
 	display: block;
+}
+
+.suggest
+{
+	margin-top: 10px;
+	border-color: #0E0E0F;
+	border-width: 1.5px;
+	border-radius: 10px;
+	width: 80%;
+	height: 100px;
+	background-color: #1C55A2;
+	color: aliceblue;
+	font-weight: bold;
 }
