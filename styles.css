@@ -212,7 +212,7 @@ footer {
 	padding-bottom: 2px;
 }
 
-.other-input {
+.select-input {
 	margin-top: 5px;
 	border-color: #0E0E0F;
 	border-width: 1.5px;
@@ -258,4 +258,16 @@ footer {
 	background-color: #1C55A2;
 	color: aliceblue;
 	font-weight: bold;
+}
+
+#fname, #lname {
+	text-transform: uppercase;
+}
+
+#mail {
+	text-transform: lowercase;
+}
+
+.choose-item {
+	font-weight: 600;
 }
