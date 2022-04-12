@@ -257,3 +257,16 @@ footer {
 	align-items: center;
 	display: block;
 }
+
+.suggest
+{
+	margin-top: 10px;
+	border-color: #0E0E0F;
+	border-width: 1.5px;
+	border-radius: 10px;
+	width: 80%;
+	height: 100px;
+	background-color: #1C55A2;
+	color: aliceblue;
+	font-weight: bold;
+}
