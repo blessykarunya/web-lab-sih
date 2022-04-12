@@ -222,6 +222,7 @@ footer {
 	background-color: #1C55A2;
 	color: aliceblue;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 #form-content {
@@ -270,4 +271,8 @@ footer {
 
 .choose-item {
 	font-weight: 600;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	cursor: pointer;
 }
