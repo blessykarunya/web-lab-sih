@@ -271,3 +271,17 @@ footer {
 .choose-item {
 	font-weight: 600;
 }
+
+.QandA{
+	text-align:justify;
+	color: #2E547F;
+	background-color:#ccffff
+}
+
+.questions{
+	font-weight: bold;
+}
+
+.answers{
+
+}
