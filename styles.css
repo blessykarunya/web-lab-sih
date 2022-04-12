@@ -44,6 +44,14 @@ body {
 	position: absolute;
 }
 
+#explore-menu {
+	right: 10px;
+}
+
+#plan-menu {
+	right: 5px;
+}
+
 #logo-text {
 	display: block;
 	padding: 10px;
