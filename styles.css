@@ -285,6 +285,8 @@ footer {
 
 .answers{
 
+}
+
 input[type="radio"], input[type="checkbox"] {
 	cursor: pointer;
 }
