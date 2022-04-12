@@ -150,10 +150,14 @@ footer {
 
 #feedback-form {
 	/*background-color: #ccffff;*/
+	padding: 20px;
+}
+
+.bgimg{
 	background-image: url('images/Yamuna_at_Yamunotri.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 20px;
+	opacity: 0.5;
 }
 
 .centered-head {
