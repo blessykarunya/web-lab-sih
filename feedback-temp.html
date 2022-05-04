@@ -5,9 +5,8 @@
 	<meta http-equiv="X-UA-Compatible">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
-	<script src="feedback.js"></script>
+	<script src="feedback-temp.js"></script>
 	<title>Feedback</title>
-	<script src="feedback.js"></script>
 </head>
 
 <body id="feedback-form">
@@ -19,27 +18,32 @@
 			<div id="firstname" class="detail-container">
 				<label for="fname" class="label-item">First Name</label>
 				<br>
-				<input type="text" id="fname" name="fname" class="text-input" placeholder="Eg: Adam">
+				<input type="text" id="fname" name="fname" class="text-input" placeholder="Eg: Adam" onblur="checkEmpty('fname');">
+				<div class="alert-text" id="fname-alert">This is a required field.</div>
 			</div>
 			<div id="lastname" class="detail-container">
 				<label for="lname" class="label-item">Last Name</label>
 				<br>
-				<input type="text" id="lname" name="lname" class="text-input" placeholder="Eg: John">
+				<input type="text" id="lname" name="lname" class="text-input" placeholder="Eg: John" onblur="checkEmpty('lname');">
+				<div class="alert-text" id="lname-alert">This is a required field.</div>
 			</div>
 			<div class="detail-container">
 				<label for="mail" class="label-item">Email ID</label>
 				<br>
-				<input type="email" id="mail" name="mail" class="text-input" placeholder="Eg: xxx@mail.com">
+				<input type="email" id="mail" name="mail" class="text-input" placeholder="Eg: xxx@mail.com" onblur="checkEmpty('mail');">
+				<div class="alert-text" id="mail-alert">This is a required field.</div>
 			</div>
 			<div class="detail-container">
 				<label for="num" class="label-item">Contact Number</label>
 				<br>
-				<input type="tel" id="num" name="num" class="text-input" placeholder="Eg: 1234567890">
+				<input type="tel" id="num" name="num" class="text-input" placeholder="Eg: 1234567890" onblur="checkEmpty('num');">
+				<div class="alert-text" id="num-alert">This is a required field.</div>
 			</div>
 			<div class="detail-container">
 				<label for="birthday" class="label-item">Date of Birth</label>
 				<br>
-				<input type="date" id="birthday" name="birthday" class="select-input">
+				<input type="date" id="birthday" name="birthday" class="select-input" onblur="checkEmpty('birthday');">
+				<div class="alert-text" id="birthday-alert">This is a required field.</div>
 			</div>
 		</div>
 		<div id="block2">
@@ -66,6 +70,7 @@
 				<label for="r4" class="choose-item">4</label>
 				<input type="radio" id="r5" name="rate" value="5">
 				<label for="r5" class="choose-item">5</label>
+				<div class="alert-text">This is a required field.</div>
 			</div>
 			<div class="detail-container">
 				<label class="label-item">How did the website help in your journey?</label>
@@ -87,6 +92,7 @@
 				<br>
 				<input type="checkbox" id="c6" class="checkbox-input" name="c6">
 				<label for="c6" class="choose-item">I got to know about more tourist spots in Uttarakhand</label>
+				<div class="alert-text">This is a required field.</div>
 			</div>
 			<div class="detail-container">
 				<label for="review" class="label-item">Any suggestions to improve our website?<br></label>
