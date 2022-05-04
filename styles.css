@@ -294,3 +294,10 @@ footer {
 input[type="radio"], input[type="checkbox"] {
 	cursor: pointer;
 }
+
+.alert-text {
+	color: rgb(255, 79, 47);
+	font-size: small;
+	padding-left: 10px;
+	display: none;
+}
