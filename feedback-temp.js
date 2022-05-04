@@ -11,3 +11,16 @@ function validateForm() {
         alert("The given fields must be filled out");
     }
 }
+
+function checkEmpty(element) {
+    var obj = document.getElementById(element);
+    var alert_obj = document.getElementById(element + "-alert");
+    if (obj.value == null || obj.value == "") {
+        obj.style.borderColor = "rgb(255, 79, 47)"
+        alert_obj.style.display = "block";
+    }
+    else {
+        obj.style.borderColor = "#1C55A2";
+        alert_obj.style.display = "none";
+    }
+}
