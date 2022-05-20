@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <h2>PARKS AND SANCTUARIES IN UTTARKHAND</h2>
+        <div id="ajx-demo">
+            <button class="button-style" type="button" onclick="loadDoc()">PARKS</button>
+        </div>
+        <script>
+            function loadDoc() {
+                const xhttp=new XMLHttpRequest();
+                xhttp.onload = function() {
+                    document.getElementById("ajx-demo").innerHTML=this.responseText;
+                }
+                xhttp.open("GET", "parks.txt");
+                xhttp.send();
+            }
+        </script>
+    </body>
+</html>
