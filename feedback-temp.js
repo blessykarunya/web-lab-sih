@@ -10,6 +10,10 @@ function validateForm() {
     if (fname == "" || fname == null || lname == "" || lname == null || mail == "" || mail == null || num == "" || num == null || birthday == "" || birthday == null || exp == "" || exp == null || rate == "" || rate == null) {
         alert("The given fields must be filled out");
     }
+    else
+    {
+        alert("FEEDBACK RECEIVED.....Thanks for filling the form");
+    }
 }
 
 function checkEmpty(element) {
