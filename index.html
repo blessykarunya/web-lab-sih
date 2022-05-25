@@ -46,13 +46,63 @@
 			</ul>
 		</nav>
 	</header>
-	<img src="images/kedarnath.png" alt="kedarnath" id="kedarnath-img">
+	<!--img src="images/kedarnath.png" alt="kedarnath" id="kedarnath-img"!-->
 	
 					<!--img src="images/kedarnath.png" class="ca_shown" alt=""/>
 					<img src="images/kedarnath (1).jpg" alt="" style="display:none;"/>
 					<img src="images/yamunotri-1.jpg" alt="" style="display:none;"/>
 					<img src="images/Yamuna_at_Yamunotri.jpg" alt="" style="display:none;"/>
 					<img src="images/Gangotri banner.jpg" alt="" style="display:none;"/!-->
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<img src="images/kedarnath.png" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/kedarnath (1).jpg" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/yamunotri-1.jpg" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/Yamuna_at_Yamunotri.jpg" style="width:100%">
+		</div>
+		<div class="mySlides fade">
+			<img src="images/Gangotri banner.jpg" style="width:100%">
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+	</div>
+	<br>
+	<div">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+		<span class="dot" onclick="currentSlide(2)"></span> 
+		<span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+		function showSlides(n) {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+		}
+	</script>
 
 	<div class="content" id="about">
 		<h2 class="content-head" id="about-head">About Char Dham Yatra</h2>
