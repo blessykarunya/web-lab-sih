@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>  
+            a {  
+                color: aquamarine ; 
+                font-style: italic;
+                font-size: larger;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }  
+            a:hover{
+                color: aliceblue;
+    
+            }
+            body {  
+                color: white;  
+                background-color: rgb(88, 102, 190);  
+            }  
+        </style>  
+    </head>
+    <body>
+        <h1>
+            <marquee 
+                direction="right" loop="70" scrollamount="23" scrolldelay="5" behavior="scroll"
+                width="100%">CHAR DHAM YATRA HOTELS
+            </marquee>
+        </h1>
+        <ul style="list-style-type:square;">
+            <li><a onmouseover="display_image()"; href="hotels-in-badrinath.html">Hotels in Badrinath</li></a></li><br>
+            <li><a href="hotels-in-barkat.html">Hotels in Barkat</a></li><br>
+            <li><a href="hotels-in-guptkashi.html">Hotels in Guptkashi</a></li><br>
+            <li><a href="hotels-in-haridwar.html">Hotels in Haridwar</a></li><br>
+            <li><a href="hotels-in-janki-chatti.html">Hotels in Janki Chatti</a></li><br>
+            <li><a href="hotels-in-joshimath.html">Hotels in Joshimath</a></li><br>
+            <li><a href="hotels-in-phata.html">Hotels in Phata</a></li><br>
+            <li><a href="hotels-in-pipalkati.html">Hotels in Pipalkati</a></li><br>
+            <li><a href="hotels-in-rishikesh.html">Hotels in Rishikesh</a></li><br>
+            <li><a href="hotels-in-rudraprayag.html">Hotels in Rudraprayag</a></li><br>
+            <li><a href="hotels-in-sitapur.html">Hotels in Sitapur</a></li><br>
+            <li><a href="hotels-in-uttarkashi.html">Hotels in Uttarkashi</a></li><br>
+            <li><a href="hotels-in-kedarnath.html">Hotels in Kedarnath</a></li>
+        </ul>
+        <script>
+           function display_image() {
+                var x = document.createElement("IMG");
+                x.setAttribute("src", "images/Gangotri banner.jpg");
+                x.setAttribute("width", "276");
+                x.setAttribute("height", "110");
+                document.li.appendChild(x);
+            }
+        </script>
+    </body>
+</html>
