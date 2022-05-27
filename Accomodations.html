@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("button").click(function(){
+					$("p").toggle();
+				});
+			});
+        </script>
         <style>  
-            a {  
+            a, button {  
                 color: aquamarine ; 
                 font-style: italic;
                 font-size: larger;
@@ -26,28 +35,45 @@
             </marquee>
         </h1>
         <ul style="list-style-type:square;">
-            <li><a onmouseover="display_image()"; href="hotels-in-badrinath.html">Hotels in Badrinath</li></a></li><br>
-            <li><a href="hotels-in-barkat.html">Hotels in Barkat</a></li><br>
-            <li><a href="hotels-in-guptkashi.html">Hotels in Guptkashi</a></li><br>
-            <li><a href="hotels-in-haridwar.html">Hotels in Haridwar</a></li><br>
-            <li><a href="hotels-in-janki-chatti.html">Hotels in Janki Chatti</a></li><br>
-            <li><a href="hotels-in-joshimath.html">Hotels in Joshimath</a></li><br>
-            <li><a href="hotels-in-phata.html">Hotels in Phata</a></li><br>
-            <li><a href="hotels-in-pipalkati.html">Hotels in Pipalkati</a></li><br>
-            <li><a href="hotels-in-rishikesh.html">Hotels in Rishikesh</a></li><br>
-            <li><a href="hotels-in-rudraprayag.html">Hotels in Rudraprayag</a></li><br>
-            <li><a href="hotels-in-sitapur.html">Hotels in Sitapur</a></li><br>
-            <li><a href="hotels-in-uttarkashi.html">Hotels in Uttarkashi</a></li><br>
-            <li><a href="hotels-in-kedarnath.html">Hotels in Kedarnath</a></li>
+            <li><button class="button">Hotels in Badrinath</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+			<li><button class="button">Hotels in Barkat</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+			<li><button class="button">Hotels in Guptakashi</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+            <li><button class="button">Hotels in Haridwar</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+			<li><button class="button">Hotels in Janki Chatti</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+            <li><button class="button">Hotels in Joshimath</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+            <li><button class="button">Hotels in Phata</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+			<li><button class="button">Hotels in Pipalkati</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+			<li><button class="button">Hotels in Rishikesh</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+            <li><button class="button">Hotels in Rudraprayag</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+            <li><button class="button">Hotels in Sitapur</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+            <li><button class="button">Hotels in Uttarkashi</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
+			<li><button class="button">Hotels in Kedarnath</button></li><br>
+			<p style="display:None;">Mysa Resort</p>
+			<p style="display:None;">Blue Poppy Resort</p>
         </ul>
-        <script>
-           function display_image() {
-                var x = document.createElement("IMG");
-                x.setAttribute("src", "images/Gangotri banner.jpg");
-                x.setAttribute("width", "276");
-                x.setAttribute("height", "110");
-                document.li.appendChild(x);
-            }
-        </script>
     </body>
 </html>

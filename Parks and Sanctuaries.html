@@ -1,19 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <style>
-            html{
-                margin: 25px 25px 25px 25px;
-            }
-        </style>
-    </head>
-    <body>
-        <h2>PARKS AND SANCTUARIES IN UTTARKHAND</h2>
-        <div id="ajx-demo">
-            <p>PARKS INFO</p>
-            <button type="button" onclick="loadDoc()">PARKS</button>
-        </div>
         <script>
             function loadDoc() {
                 const xhttp=new XMLHttpRequest();
@@ -24,5 +13,18 @@
                 xhttp.send();
             }
         </script>
+        <style>
+            html{
+                margin: 25px 25px 25px 25px;
+            }
+        </style>
+    </head>
+    <body class="QandA">
+        <h2>PARKS AND SANCTUARIES IN UTTARKHAND</h2>
+        <div id="ajx-demo">
+            <p>PARKS INFO</p>
+            <button type="button" onclick="loadDoc()">PARKS</button>
+        </div>
+        
     </body>
 </html>
