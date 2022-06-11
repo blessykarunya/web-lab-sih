@@ -1,0 +1,52 @@
+body {
+	background-color: #D8DFE9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #022831;
+    font-weight: 700;
+}
+
+.content {
+	text-align: center;
+}
+
+.group {
+	display: flex;
+	height: inherit;
+	padding: 20px;
+	justify-content: space-around;
+	width: 50%;
+    margin: 0 auto;
+}
+
+.button {
+	color: #D8DFE9;
+	background-color: #04566E;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid 2px #0B4C84;
+	border-width: 1.5px;
+	font-weight: bold;
+	font-size: larger;
+	width: 100%;
+	cursor: pointer;
+}
+
+.hotel-list {
+	display: none;
+	background-color: #B4D330;
+	border: solid 2px #0B4C84;
+	color: #091D36;
+	border-radius: 10px;
+	width: 100%;
+	text-align: left;
+}
+
+li {
+	line-height: 20px;
+	font-weight: bold;
+	color: #091D36;
+}
