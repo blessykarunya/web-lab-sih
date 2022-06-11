@@ -1,0 +1,22 @@
+#badr-hotels, #jan-hotels, #hari-hotels, #jos-hotels, #bar-hotels, #gupt-hotels, #phata-hotels, #pip-hotels, #ked-hotels, #utt-hotels, #sita-hotels, #rudr-hotels, #rish-hotels{
+	display: none;
+}
+a, #button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12, #button13  {
+	color: aquamarine ;
+	background-color: #1C55A2;
+	padding: 10px;
+	border-radius: 10px;
+	border-color: #0E0E0F;
+	border-width: 1.5px;
+	font-style: italic;
+	font-size: larger;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover{
+	color: aliceblue;
+
+}
+body {
+	color: white;
+	background-color: rgb(88, 102, 190);
+}

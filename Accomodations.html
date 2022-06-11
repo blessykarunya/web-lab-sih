@@ -1,85 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-		<link rel="stylesheet" href="styles.css">
+	<head>
+		<link rel="stylesheet" href="accomodations-style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-		<script>
-			$(document).ready(function(){
-				$("#button1").click(function(){
-					$("#badr-hotels").toggle();
-				});
-				$("#button2").click(function(){
-					$("#bar-hotels").toggle();
-				});
-				$("#button3").click(function(){
-					$("#gupt-hotels").toggle();
-				});
-				$("#button4").click(function(){
-					$("#hari-hotels").toggle();
-				});
-				$("#button5").click(function(){
-					$("#jan-hotels").toggle();
-				});
-				$("#button6").click(function(){
-					$("#jos-hotels").toggle();
-				});
-				$("#button7").click(function(){
-					$("#phata-hotels").toggle();
-				});
-				$("#button8").click(function(){
-					$("#pip-hotels").toggle();
-				});
-				$("#button9").click(function(){
-					$("#rish-hotels").toggle();
-				});
-				$("#button10").click(function(){
-					$("#rudr-hotels").toggle();
-				});
-				$("#button11").click(function(){
-					$("#sita-hotels").toggle();
-				});
-				$("#button12").click(function(){
-					$("#utt-hotels").toggle();
-				});
-				$("#button13").click(function(){
-					$("#ked-hotels").toggle();
-				});
-			});
-        </script>
-        <style>  
-			#badr-hotels, #jan-hotels, #hari-hotels, #jos-hotels, #bar-hotels, #gupt-hotels, #phata-hotels, #pip-hotels, #ked-hotels, #utt-hotels, #sita-hotels, #rudr-hotels, #rish-hotels{
-				display: none;
-			}
-            a, #button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12, #button13  {  
-                color: aquamarine ; 
-				background-color: #1C55A2;
-				padding: 10px;
-				border-radius: 10px;
-				border-color: #0E0E0F;
-				border-width: 1.5px;
-                font-style: italic;
-                font-size: larger;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }  
-            a:hover{
-                color: aliceblue;
-    
-            }
-            body {  
-                color: white;  
-                background-color: rgb(88, 102, 190);  
-            }  
-        </style>  
-    </head>
-    <body>
-        <h1>
-            <marquee 
-                direction="right" loop="70" scrollamount="23" scrolldelay="5" behavior="scroll"
-                width="100%">CHAR DHAM YATRA HOTELS
-            </marquee>
-        </h1>
-        <ul style="list-style-type:square;">
-            <li><button id="button1">Hotels in Badrinath</button></li><br>
+		<script src="accomodations-jquery.js">
+		</script>
+	</head>
+	<body>
+		<h1>CHAR DHAM YATRA HOTELS
+			<!-- <marquee
+				direction="right" loop="70" scrollamount="23" scrolldelay="5" behavior="scroll"
+				width="100%">CHAR DHAM YATRA HOTELS
+			</marquee> -->
+		</h1>
+		<ul style="list-style-type:square;">
+			<li><button id="button1">Hotels in Badrinath</button></li><br>
 			<ul id="badr-hotels">
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
@@ -105,7 +40,7 @@
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
 			</ul>
-            <li><button id="button4">Hotels in Haridwar</button></li><br>
+			<li><button id="button4">Hotels in Haridwar</button></li><br>
 			<ul id="hari-hotels">
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
@@ -115,12 +50,12 @@
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
 			</ul>
-            <li><button id="button6">Hotels in Joshimath</button></li><br>
+			<li><button id="button6">Hotels in Joshimath</button></li><br>
 			<ul id="jos-hotels">
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
 			</ul>
-            <li><button id="button7">Hotels in Phata</button></li><br>
+			<li><button id="button7">Hotels in Phata</button></li><br>
 			<ul id="phata-hotels">
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
@@ -135,17 +70,17 @@
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
 			</ul>
-            <li><button id="button10">Hotels in Rudraprayag</button></li><br>
+			<li><button id="button10">Hotels in Rudraprayag</button></li><br>
 			<ul id="rudr-hotels">
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
 			</ul>
-            <li><button id="button11">Hotels in Sitapur</button></li><br>
+			<li><button id="button11">Hotels in Sitapur</button></li><br>
 			<ul id="sita-hotels">
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
 			</ul>
-            <li><button id="button12">Hotels in Uttarkashi</button></li><br>
+			<li><button id="button12">Hotels in Uttarkashi</button></li><br>
 			<ul id="utt-hotels">
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
@@ -155,6 +90,6 @@
 				<li>Mysa Resort</li><br>
 				<li>Blue Poppy Resort</li><br>
 			</ul>
-        </ul>
-    </body>
+		</ul>
+	</body>
 </html>
