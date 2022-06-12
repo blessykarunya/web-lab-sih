@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            function loadDoc() {
-                const xhttp=new XMLHttpRequest();
-                xhttp.onload = function() {
-                    document.getElementById("ajx-demo").innerHTML=this.responseText;
-                }
-                xhttp.open("GET", "parks.txt");
-                xhttp.send();
-            }
-            function loadDoc2() {
-                const xhttp=new XMLHttpRequest();
-                xhttp.onload = function() {
-                    document.getElementById("ajx-demo2").innerHTML=this.responseText;
-                }
-                xhttp.open("GET", "sanctuaries.txt");
-                xhttp.send();
-            }
-        </script>
-        <style>
-            html{
-                margin: 25px 25px 25px 25px;
-            }
-        </style>
-    </head>
-    <body class="QandA">
-        <h2>PARKS AND SANCTUARIES IN UTTARKHAND</h2>
-        <div id="ajx-demo">
-            <p>CLICK HERE TO KNOW ABOUT PARKS IN UTTARAKHAND!</p>
-            <button class="button" onclick="loadDoc()">PARKS</button>
-        </div>
-        <div id="ajx-demo2">
-            <p>CLICK HERE TO KNOW ABOUT SANCTUARIES IN UTTARAKHAND!</p>
-            <button class="button" onclick="loadDoc2()">SANCTUARIES</button>
-        </div>
-    </body>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script>
+			function loadDoc() {
+				const xhttp=new XMLHttpRequest();
+				xhttp.onload = function() {
+					document.getElementById("ajx-demo").innerHTML=this.responseText;
+				}
+				xhttp.open("GET", "parks.txt");
+				xhttp.send();
+			}
+			function loadDoc2() {
+				const xhttp=new XMLHttpRequest();
+				xhttp.onload = function() {
+					document.getElementById("ajx-demo2").innerHTML=this.responseText;
+				}
+				xhttp.open("GET", "sanctuaries.txt");
+				xhttp.send();
+			}
+		</script>
+		<style>
+			html{
+				margin: 25px 25px 25px 25px;
+			}
+		</style>
+	</head>
+	<body class="QandA">
+		<h2>PARKS AND SANCTUARIES IN UTTARKHAND</h2>
+		<div id="ajx-demo">
+			<p>CLICK HERE TO KNOW ABOUT PARKS IN UTTARAKHAND!</p>
+			<button class="button" onclick="loadDoc()">PARKS</button>
+		</div>
+		<div id="ajx-demo2">
+			<p>CLICK HERE TO KNOW ABOUT SANCTUARIES IN UTTARAKHAND!</p>
+			<button class="button" onclick="loadDoc2()">SANCTUARIES</button>
+		</div>
+	</body>
 </html>
